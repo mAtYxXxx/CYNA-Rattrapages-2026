@@ -1,7 +1,6 @@
 # CYNA-Rattrapages-2026
 # Projet CYNA - Dossier de Rattrapages (Août 2026)
 
-**Candidat :** Mathys Curnillon
 **Modules :** 
 *   **UE-AGC :** Gouvernance et Administration Cloud (Azure)
 *   **UE-ASI :** Administration des Systèmes de l'Information (Proxmox / Windows Server)
@@ -9,8 +8,7 @@
 ---
 
 ## 🎯 Objectif du dépôt
-Ce repository centralise la documentation technique et les preuves de configuration réalisées dans le cadre du projet fil rouge **CYNA**, en vue de la validation des compétences (niveau Maîtrisé 4.0) pour la session de rattrapage d'août 2026.
-
+Ce repository centralise la documentation technique et les preuves de configuration réalisées dans le cadre du projet fil rouge **CYNA**.
 Le projet a nécessité la mise en place d'une architecture hybride :
 1.  Un environnement **On-Premise (Cloud Privé)** virtualisé sous Proxmox pour la gestion du réseau local et des identités internes.
 2.  Un environnement **Cloud Public (Microsoft Azure)** pour l'hébergement hautement disponible de la plateforme SaaS ouverte aux clients.
@@ -18,5 +16,5 @@ Le projet a nécessité la mise en place d'une architecture hybride :
 ## 📂 Structure du projet
 
 *   📁 `docs/` : Contient les documentations techniques détaillées.
-    *   📄 [**DOC_CLOUD_AZURE.md**](docs/DOC_CLOUD_AZURE.md) : Justification des choix IaaS, mise en place RBAC, configuration FinOps (arrêts automatiques, budgets) et supervision sur Azure. (Valide le bloc **DI1-AGC**).
-    *   📄 [**DOC_ON_PREMISE.md**](docs/DOC_ON_PREMISE.md) : Déploiement et structuration de l'annuaire Active Directory (LDAP) et configuration du service DHCP sécurisé sur le cluster local Proxmox. (Valide les blocs **DI1-ASI-C4** et **DI1-ASI-C5**).
+    *   📄 [**DOC_CLOUD_AZURE.md**](docs/DOC_CLOUD_AZURE.md) : Déploiement de la VM sur Azure, justification des choix, configuration et choix des ressources et supervision sur Azure.
+    *   📄 [**DOC_ON_PREMISE.md**](docs/DOC_ON_PREMISE.md) : Déploiement et structuration de l'annuaire Active Directory (LDAP) et configuration du service DHCP
